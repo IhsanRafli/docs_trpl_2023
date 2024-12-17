@@ -24,8 +24,8 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: "Navigation",
-    href: "/navigation",
+    title: "Pendahuluan",
+    href: "/Pendahuluan",
     heading: "Documents",
   },
   {
