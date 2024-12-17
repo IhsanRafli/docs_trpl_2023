@@ -24,13 +24,13 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: "Pendahuluan",
-    href: "/Pendahuluan",
+    title: "E-commerce",
+    href: "/E-commerce",
     heading: "Documents",
   },
   {
-    title: "Structure",
-    href: "/structure",
+    title: "Pendahuluan",
+    href: "/Pendahuluan",
     items: [
       {
         title: "Deeper",

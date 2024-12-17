@@ -1,9 +1,80 @@
 ---
-title: Pendahuluan
-description: Penggunaan teknologi sangat memberikan manfaat yang besar terhadap dunia bisnis. Perusahaan yang menggunakan teknologi merupakan perusahaan yang mampu bersaing dalam kompetisi. Salah satu teknologi yang dapat meningkatkan persaingan bisnis adalah penggunaan electronic commerce (e-commerce), dimana e-commerce digunakan untuk memasarkan berbagai macam produk maupun jasa baik dalam bentuk fisik maupun digital [1].
-Saat ini strategi yang baik sangat diperlukan dalam memasarkan produk. E-commerce sangat tepat digunakan dalam memasarkan produk – produk yang dijual oleh suatu toko [2]. E-commerce dapat memudahkan transaksi antara penjual dan pembeli yang berbeda tempat serta pembeli dapat mengetahui info produk seperti harga, model, warna, dan info produk lainnya dengan mudah [3].
-Perkembangan e-commerce sangat cepat meningkat di Indonesia, hal tersebut mengharuskan semua pelaku usaha untuk dapat beradaptasi dengan menjual produknya secara online. Teknologi yang semakin maju dapat mempermudah proses bisnis suatu usaha [4].
-Penggunaan smartphone yang meningkat di seluruh dunia membuat pengembangan e-commerce bergeser dari website menjadi smartphone [5]. Saat ini smartphone membantu segala macam kegiatan manusia seperti mengirim dan menerima pesan, memesan kebutuhan hidup seperti makanan dan minuman ataupun kebutuhan sekunder lainnya [6].
-Smartphone android saat ini hampir dimiliki oleh seluruh lapisan masyarakat dan digunakan untuk hiburan, komunikasi, berbisnis, jual beli barang melalui aplikasi dan sebagainya [7].
-keywords: ["navigation", "sidebar", "menus", "mdx", "nextjs", "documents"]
+title: Structure
+description: This section provides an overview of Introduction.
 ---
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+| Syntax        | Description |   Test Text |
+| :------------ | :---------: | ----------: |
+| Header        |    Title    | Here's this |
+| Paragraph     |    Text     |    And more |
+| Strikethrough |             |    ~~Text~~ |
+
+## Getting Started
+
+To begin using the Documentation Template, follow these simple steps:
+
+- Start by cloning the repository to your local machine.
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium. Optio, necessitatibus sequi. Veritatis, aspernatur? Possimus quis repellat eum vitae eveniet.
+
+## Blockquotes
+
+Blockquotes are useful for emphasizing key points or quoting external sources:
+
+> "Documentation is a love letter that you write to your future self." - Damian Conway
+
+Feel free to use blockquotes to highlight important information or quotes relevant to your documentation.
+
+## Code Examples with switch
+
+Here a custom tab component from shadcn ui is used.
+
+<Tabs defaultValue="js" className="pt-5 pb-1">
+  <TabsList className="">
+    <TabsTrigger value="js">layout.jsx</TabsTrigger>
+    <TabsTrigger value="ts">layout.tsx</TabsTrigger>
+  </TabsList>
+  <TabsContent value="js">
+  ```jsx {7} showLineNumbers
+import ThemeProvider from './theme-provider'
+ 
+export default function RootLayout({ children }) {
+  return (
+    <html>
+      <body className="container">
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
+    </html>
+  )}
+````
+  </TabsContent>
+  <TabsContent value="ts">
+```tsx {11} showLineNumbers
+import ThemeProvider from './theme-provider'
+ 
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html>
+      <body className="container">
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
+    </html>
+  )
+}
+```
+  </TabsContent>
+</Tabs>
+
+## Conclusion
+
+Thank you for choosing the Documentation Template for your project. Whether you're documenting software, APIs, or processes, we're here to support you in creating clear and effective documentation. Happy documenting!
