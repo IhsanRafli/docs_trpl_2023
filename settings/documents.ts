@@ -29,8 +29,8 @@ export const Documents: Paths[] = [
     heading: "Documents",
   },
   {
-    title: "Pendahuluan",
-    href: "/Pendahuluan",
+    title: "Metode-penelitian",
+    href: "/Metode-penelitian",
     items: [
       {
         title: "Deeper",
