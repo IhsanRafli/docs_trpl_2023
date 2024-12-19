@@ -48,7 +48,7 @@ export const Documents: Paths[] = [
   },
   {
     title: "Analisis dan Desain Perangkat Lunak",
-    href: "/analisisdesain",
+    href: "/Analisisdesain",
     items: [
       {
         title: "Analisis Kebutuhan",
