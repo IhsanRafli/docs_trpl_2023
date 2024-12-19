@@ -24,220 +24,214 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: "Proyek Website Terintegrasi E-commerce",
-    href: "/E-commerce",
+    title: "Projek Website Terintegrasi",
+    href: "/navigation",
     heading: "Documents",
+  },
+  {
+    title: "Pendahuluan",
+    href: "/pendahuluan",
     items: [
       {
-        title: "Pendahuluan",
-        href: "/isi pendahuluan",
+        title: "Deskripsi Projek",
+        href: "/deskripsiprojek",
+      },
+      {
+        title: "Teknologi yang Digunakan",
+        href: "/teknologiyangdigunakan",
+      },
+      {
+        title: "Keterkaitan Mata Kuliah",
+        href: "/keterkaitanmatkul",
+      },
+    ],
+  },
+  {
+    title: "Analisis dan Desain Perangkat Lunak",
+    href: "/analisisdesain",
+    items: [
+      {
+        title: "Analisis Kebutuhan",
+        href: "/analisis_kebutuhan",
         items: [
           {
-            title: "Deskripsi Proyek",
-            href: "/isideskripsi",
+            title: "Business Requirement",
+            href: "/business_requirement",
           },
           {
-            title: "Teknologi yang Digunakan",
-            href: "/isiteknologi",
+            title: "Stakeholder Requirement",
+            href: "/stakeholder_requirement",
           },
           {
-            title: "Keterkaitan dengan Mata Kuliah",
-            href: "/isiketerkaitan",
+            title: "System Requirement",
+            href: "/system_requirement",
+          },
+          {
+            title: "Software Requirement",
+            href: "/software_requirement",
           },
         ],
       },
       {
-        title: "Analisis dan Desain Perangkat Lunak",
-        href: "/folder-baru",
+        title: "Diagram",
+        href: "/diagram",
         items: [
           {
-           title: "Analisis kebutuhan",
-           href: "/folder-baru",
-           items: [
-              {
-               title: "Business Requirement",
-               href: "/isiBusiness ",
-              },
-              {
-               title: "Stakeholder Requirement",
-               href: "isiStakeholder",
-              },
-              {
-               title: "System Requirement",
-               href: "/isiSystem",
-              },
-              {
-               title: "Software Requirement",
-               href: "/isiSoftware",
-              },
-           ],
+            title: "Use Case Diagram",
+            href: "/use_case",
           },
           {
-           title: "Diagram",
-           href: "/diagram",
-           items: [
-              {
-               title: "Use Case Diagram",
-               href: "/isiUseCase ",
-              },
-              {
-               title: "Class Diagram",
-               href: "isiClassDiagram",
-              },
-              {
-               title: "Flowchart",
-               href: "/isiFlowchart",
-              },
-           ],
+            title: "Class Diagram",
+            href: "/class",
+          },
+          {
+            title: "Flowchart",
+            href: "/flowchart",
           },
         ],
       },
     ],
   },
-{
-       title: "Perancangan Desain Antarmuka",
-        href: "/isiPerancanganDesain",
+  {
+    title: "Perancangan dan Antarmuka",
+    href: "/perancanganantarmuka",
+    items: [
+      {
+        title: "Dokumen Desain",
+        href: "/deeper",
         items: [
           {
-           title: "Dokumen Desain",
-           href: "/isiDokumen Desain",
-           items: [
-              {
-               title: "Sketsa Awal",
-               href: "/isiSketsaAwal",
-              },
-              {
-               title: "Wireframe",
-               href: "isiWireframe",
-              },
-              {
-               title: "Userflow",
-               href: "/isiUserflow",
-              },
-              {
-               title: "Prototipe",
-               href: "/isiPrototipe",
-              },
-           ],
+            title: "Sketsa Awal",
+            href: "/even-deeper",
           },
           {
-           title: " Implementasi Desain",
-           href: "/ Implementasi Desain",
-           items: [
-              {
-               title: "Kode HTML, CSS, dan JavaScript untuk antarmuka pengguna",
-               href: "/isiKodeHTMLCSSJavaScript",
-              },
-           ],
+            title: "Wireframe",
+            href: "/even-deeper",
+          },
+          {
+            title: "Userflow",
+            href: "/even-deeper",
+          },
+          {
+            title: "Prototipe",
+            href: "/even-deeper",
           },
         ],
-},
-{
-  title: " Pengembangan Aplikasi",
-   href: "/isiPengembanganAplikasi",
-   items: [
-    {
-      title: "Fitur Utama",
-      href: "/isiFiturUtama",
-      items: [
-         {
-          title: "Operasi CRUD untuk entitas utama",
-          href: "/isiOperasiCRUD",
-         },
-         {
-          title: "Fitur login dan registrasi",
-          href: "isiFiturlogindanregistrasi",
-         },
-         {
-          title: "Minimal satu fitur interaktif",
-          href: "/isifiturinteraktif",
-         },
-      ],
-     },
-    {
-      title: "Struktur Basis Data",
-      href: "/isiStrukturBasisData",
-      items: [
-         {
-          title: "MySQL",
-          href: "/isiMySQL",
-         },
-      ],
-    },
-    {
-      title: "Metode SDLC",
-      href: "/isiMetodeSDLC",
-      items: [
-         {
-          title: "Analisis Kebutuhan",
-          href: "/isiAnalisisKebutuhan",
-         },
-         {
-          title: "Pembuatan Diagram UML",
-          href: "isiDiagramUML",
-         },
-         {
-          title: "Pengembangan Kode dan Basis Data",
-          href: "/isiKodedanBasisData",
-         },
-         {
-          title: "Pengujian Fungsionalitas",
-          href: "/isiPengujianFungsionalitas",
-         },
-         {
-          title: "Deployment ke Vercel",
-          href: "/isiDeploymentkeVercel",
-         },
-      ],
-    },
-   ],
-},
-{
-  title: "Dokumentasi Penggunaan Website",
-  href: "/isiDokumentasiPenggunaanWebsite",
-  items: [
-     {
-      title: "Panduan penggunaan fitur utama dan alur sistem",
-      href: "/isifiturutamadanalursistem",
-     },
-  ],
-},
-{
-  title: "Metode Pengembangan Perangkat Lunak",
-  href: "/isiMetodePengembangan",
-  items: [
-     {
-      title: "Penjelasan metode yang digunakan",
-      href: "/isiPenjelasanmetode",
-     },
-     {
-      title: "Alasan pemilihan metode",
-      href: "/isiAlasanmetode",
-     },
-     {
-      title: "Implementasi setiap tahapan metode dalam proyek",
-      href: "/isiImplementasiproyek",
-     },
-  ],
-},
-{
-  title: "Kesimpulan dan Saran",
-  href: "/isiKesimpulandanSaran",
-  items: [
-     {
-      title: "Evaluasi Proyek",
-      href: "/isiEvaluasiProyek",
-     },
-     {
-      title: "Alasan pemilihan metode",
-      href: "/isiAlasanmetode",
-     },
-     {
-      title: "Fitur tambahan atau perbaikan",
-      href: "/isiFiturtambahanperbaikan",
-     },
-  ],
-},
+      },
+      {
+        title: "Implementasi Desain",
+        href: "/deeper",
+        items: [
+          {
+            title: "Kode Html, CSS, JavaScript",
+            href: "/even-deeper",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Pengembangan Aplikasi",
+    href: "/pengembanganaplikasi",
+    items: [
+      {
+        title: "Fitur Utama",
+        href: "/deeper",
+        items: [
+          {
+            title: "Operasi CRUD",
+            href: "/even-deeper",
+          },
+          {
+            title: "Fitur Login dan Registrasi",
+            href: "/even-deeper",
+          },
+          {
+            title: "Fitur Interaktif",
+            href: "/even-deeper",
+          },
+        ],
+      },
+      {
+        title: "Struktur Basis Data",
+        href: "/deeper",
+        items: [
+          {
+            title: "MYSQL",
+            href: "/even-deeper",
+          },
+        ],
+      },
+      {
+        title: "Metode SDLC",
+        href: "/deeper",
+        items: [
+          {
+            title: "Analisis Kebutuhan",
+            href: "/even-deeper",
+          },
+          {
+            title: "Pembuatan Diagram UML",
+            href: "/even-deeper",
+          },
+          {
+            title: "Pengembangan Kode dan Basis Data",
+            href: "/even-deeper",
+          },
+          {
+            title: "Pengujian Fungsionalitas",
+            href: "/even-deeper",
+          },
+          {
+            title: "Deployment ke Vercel",
+            href: "/even-deeper",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Dokumentasi Penggunaan Website",
+    href: "/dokumentasipenggunaan",
+    items: [
+      {
+        title: "Panduan Penggunaan Website",
+        href: "/deeper",
+      },
+    ],
+  },
+  {
+    title: "Metode Pengembangan Perangkat Lunak",
+    href: "/metodepengembangan",
+    items: [
+      {
+        title: "Penjelasan Metode yang Digunakan",
+        href: "/deeper",
+      },
+      {
+        title: "Alasan Memilih Metode",
+        href: "/deeper",
+      },
+      {
+        title: "Implementasi Setiap Tahapan",
+        href: "/deeper",
+      },
+    ],
+  },
+  {
+    title: "Kesimpulan dan Saran",
+    href: "/kesimpulan",
+    items: [
+      {
+        title: "Evaluasi Projek",
+        href: "/deeper",
+      },
+      {
+        title: "Rekomendai Pengembangan Selanjutnya",
+        href: "/deeper",
+      },
+    ],
+  },
   {
     spacer: true,
   },
