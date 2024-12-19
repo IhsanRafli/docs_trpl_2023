@@ -27,20 +27,26 @@ export const Documents: Paths[] = [
     title: "E-commerce",
     href: "/E-commerce",
     heading: "Documents",
-  },
-  {
-    title: "Metode-penelitian",
-    href: "/Metode-penelitian",
     items: [
       {
         title: "Deeper",
         href: "/deeper",
-        items : [
+        items: [
           {
             title: "Even deeper",
             href: "/even-deeper",
           },
-        ]
+        ],
+      },
+      {
+        title: "Folder Baru",
+        href: "/folder-baru",
+        items: [
+          {
+            title: "File Baru",
+            href: "/folder-baru/file-baru",
+          },
+        ],
       },
     ],
   },
