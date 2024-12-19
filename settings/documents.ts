@@ -48,7 +48,7 @@ export const Documents: Paths[] = [
   },
   {
     title: "Analisis dan Desain Perangkat Lunak",
-    href: "/Analisisdesain",
+    href: "/analisisdesain",
     items: [
       {
         title: "Analisis Kebutuhan",
@@ -102,25 +102,25 @@ export const Documents: Paths[] = [
         items: [
           {
             title: "Sketsa Awal",
-            href: "/even-deeper",
+            href: "/sketsa",
           },
           {
             title: "Wireframe",
-            href: "/even-deeper",
+            href: "/wireframe",
           },
           {
             title: "Userflow",
-            href: "/even-deeper",
+            href: "/userflow",
           },
           {
             title: "Prototipe",
-            href: "/even-deeper",
+            href: "/prototipe",
           },
         ],
       },
       {
         title: "Implementasi Desain",
-        href: "/deeper",
+        href: "/implementasi",
         items: [
           {
             title: "Kode Html, CSS, JavaScript",
@@ -136,25 +136,25 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Fitur Utama",
-        href: "/deeper",
+        href: "/fitur",
         items: [
           {
             title: "Operasi CRUD",
-            href: "/even-deeper",
+            href: "/operasicrud",
           },
           {
             title: "Fitur Login dan Registrasi",
-            href: "/even-deeper",
+            href: "/fiturlogin",
           },
           {
             title: "Fitur Interaktif",
-            href: "/even-deeper",
+            href: "/interaktif",
           },
         ],
       },
       {
         title: "Struktur Basis Data",
-        href: "/deeper",
+        href: "/struktur",
         items: [
           {
             title: "MYSQL",
@@ -164,27 +164,27 @@ export const Documents: Paths[] = [
       },
       {
         title: "Metode SDLC",
-        href: "/deeper",
+        href: "/metodesdlc",
         items: [
           {
             title: "Analisis Kebutuhan",
-            href: "/even-deeper",
+            href: "/kebutuhanr",
           },
           {
             title: "Pembuatan Diagram UML",
-            href: "/even-deeper",
+            href: "/diagramuml",
           },
           {
             title: "Pengembangan Kode dan Basis Data",
-            href: "/even-deeper",
+            href: "/basisdata",
           },
           {
             title: "Pengujian Fungsionalitas",
-            href: "/even-deeper",
+            href: "/pengujian",
           },
           {
             title: "Deployment ke Vercel",
-            href: "/even-deeper",
+            href: "/deployment",
           },
         ],
       },
@@ -206,15 +206,15 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Penjelasan Metode yang Digunakan",
-        href: "/deeper",
+        href: "/penjelasanmetode",
       },
       {
         title: "Alasan Memilih Metode",
-        href: "/deeper",
+        href: "/alasanmetode",
       },
       {
         title: "Implementasi Setiap Tahapan",
-        href: "/deeper",
+        href: "/tahap",
       },
     ],
   },
@@ -224,11 +224,11 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Evaluasi Projek",
-        href: "/deeper",
+        href: "/evaluasi",
       },
       {
         title: "Rekomendai Pengembangan Selanjutnya",
-        href: "/deeper",
+        href: "/rekomendasi",
       },
     ],
   },
