@@ -1,78 +1,45 @@
----
-title: Setup
-description: Setting up and configuring your documentation project
-keywords: ["setup", "configuration", "layout", "Google", "SEO", "nextjs", "documents"]
----
+## Kaitan Aplikasi dengan Mata Kuliah
+1. Basis Data:
+Dalam aplikasi ini, basis data menjadi komponen utama untuk menyimpan dan mengelola data pengguna, produk, transaksi, serta riwayat aktivitas.
 
-Setting up your new documentation project is straightforward. Most of the essential project settings can be configured within the `settings` folder.
+- MySQL digunakan sebagai sistem manajemen basis data relasional (RDBMS), dengan struktur tabel yang dirancang untuk memastikan integritas data.
+- Operasi seperti CRUD (Create, Read, Update, Delete) digunakan untuk memanipulasi data dengan efisien, menerapkan prinsip normalisasi untuk menghindari redundansi.
+- Basis data ini juga dirancang untuk mendukung fitur pencarian cepat dan transaksi yang aman menggunakan query SQL yang teroptimasi.
 
-## Settings
 
-This section provides the core settings for your documentation site, such as defining the site's URL, site icon and title.
+2. Metode dan Model Pengembangan Perangkat Lunak (SDLC Waterfall):
+Dalam pengembangan aplikasi ini, kami menggunakan model Waterfall, yang berfokus pada penyelesaian setiap tahap secara berurutan.
 
-  ```tsx showLineNumbers
-  export const url = ""; // The URL for your documentation site
-  export const siteicon = ""; // Icon displayed next to the site name in the header
-  export const sitename = ""; // Title of your documentation site
-  ```
+- Tahap 1: Analisis Kebutuhan:
+Mengidentifikasi kebutuhan sistem dengan mendetail, termasuk fitur utama seperti manajemen produk, transaksi, dan integrasi pembayaran.
+- Tahap 2: Desain Sistem:
+Membuat blueprint aplikasi yang mencakup desain basis data menggunakan ERD (Entity-Relationship Diagram) dan desain proses menggunakan Use Case Diagram serta Sequence Diagram.
+- Tahap 3: Implementasi:
+Melibatkan pengkodean aplikasi menggunakan HTML, CSS, dan JavaScript untuk frontend, serta PHP untuk backend. Setiap modul dikembangkan sesuai desain yang telah dirancang.
+- Tahap 4: Pengujian:
+Aplikasi diuji untuk memastikan semua fitur berfungsi dengan baik, termasuk pengujian fungsionalitas basis data, integrasi antar modul, dan performa sistem.
+- Tahap 5: Deployment:
+Aplikasi diimplementasikan di server produksi dan diuji ulang untuk memastikan kompatibilitas di lingkungan nyata.
+- Tahap 6: Pemeliharaan:
+Setelah aplikasi berjalan, dilakukan pemantauan dan perbaikan terhadap bug atau kebutuhan tambahan dari pengguna.
 
-## Google Tags
 
-This section allows you to integrate Google Tag Manager into your documentation project. You can add your GTM code and configure whether it's connected.
+3. Perancangan Antarmuka Pengguna:
+Perancangan antarmuka pengguna dilakukan dengan prinsip User-Centered Design (UCD) untuk memastikan kemudahan penggunaan bagi semua kalangan.
 
-  ```tsx showLineNumbers
-  export const gtm = ""; // Add your Google Tag Manager code here
-  export const gtmconnected = true; // Set to true if GTM is connected, otherwise set to false
-  ```
+- Menggunakan tools desain seperti Figma untuk prototipe.
+- Penerapan prinsip Konsistensi dan Standar serta Hirarki Visual dalam desain antarmuka, sehingga elemen seperti navigasi, tombol, dan formulir mudah dipahami pengguna.
+- Pengujian antarmuka dilakukan untuk mengukur usability dan memastikan aplikasi memberikan pengalaman pengguna yang optimal.
 
-## Search Engine
 
-Configure essential SEO settings to ensure your documentation site is optimized for search engines. This includes meta descriptions, keywords and social media sharing details like images and alt text.
+4. Pemrograman Web Lanjut:
 
-  ```tsx showLineNumbers
-  export const description = ""; // Description of your documentation site for SEO
-  export const keywords = ["", ""]; // List of SEO keywords for your documentation site
-  export const urlimage = ""; // The URL of the image used when sharing on social media)
-  export const imagealt = ""; // Alt text for shared images, helpful for screen readers
-  export const twitterhandle = ""; // Your company’s Twitter handle for social sharing
-  ```
+- Aplikasi ini mengintegrasikan HTML, CSS, dan JavaScript pada frontend untuk menciptakan halaman web yang dinamis dan responsif.
+- Backend dibangun menggunakan PHP, yang mendukung pengelolaan data secara real-time dan proses server-side yang aman.
+- Fitur-fitur tambahan seperti API untuk integrasi payment gateway dan validasi data menggunakan JavaScript melibatkan konsep pemrograman web tingkat lanjut.
 
-## Footer Branding
 
-The footer settings allow you to customize the company information displayed at the bottom of the site. You can add the company name and the URL that the name will link to.
+5. Praktik Analisis dan Desain Perangkat Lunak:
 
-  ```tsx showLineNumbers
-  export const companyname = ""; // The company name displayed in the copyright section
-  export const companylink = ""; // The URL your company name should link to
-  ```
-
-## General Layout
-
-The layout settings control the appearance and functionality of various elements of the documentation site, such as branding, the right sidebar, feedback options, table of contents, and scroll-to-top functionality.
-
-  ```tsx showLineNumbers
-  export const branding = true; // Set to true to display our branding elements
-  export const rightsidebar = true; // Set to true to enable the right sidebar with feedback, table of contents and scroll-to-top
-  export const feedbackedit = true; // Control to enable/disable feedback on GitHub
-  export const tableofcontent = true; // Control to enable/disable the generated table of contents
-  export const totopscroll = true; // Control to enable/disable scroll-to-top button
-  ```
-
-## Github Control
-
-If your MDX files are hosted on GitHub, you can configure the project to load documents directly from there. This option can be useful for syncing documentation updates directly with your repository.
-
-  ```tsx showLineNumbers
-  export const loadfromgithub = false; // Set to true to load your MDX documents directly from GitHub
-  ```
-
-## Project Structure
-<CardGrid>
-  <Card
-    title="Navigation"
-    href="/docs/navigation"
-    icon="alignJustify"
-    variant="small"
-    description="Creating your navigation"
-  />
-</CardGrid>
+- Analisis Kebutuhan: Menggunakan diagram UML seperti Use Case Diagram untuk memetakan kebutuhan pengguna, baik pembeli maupun penjual.
+- Desain Sistem: Dirancang menggunakan ERD (Entity-Relationship Diagram) untuk menggambarkan struktur basis data serta Sequence Diagram untuk menjelaskan alur proses utama seperti pembelian produk.
