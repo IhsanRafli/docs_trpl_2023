@@ -1,78 +1,202 @@
----
-title: Setup
-description: Setting up and configuring your documentation project
-keywords: ["setup", "configuration", "layout", "Google", "SEO", "nextjs", "documents"]
----
+## Pendahuluan
 
-Setting up your new documentation project is straightforward. Most of the essential project settings can be configured within the `settings` folder.
+Salah satu teknologi yang dapat meningkatkan persaingan bisnis adalah penggunaan electronic commerce (e-commerce), dimana e-commerce digunakan untuk memasarkan berbagai macam produk maupun jasa baik dalam bentuk fisik maupun digital [1].
+Saat ini strategi yang baik sangat diperlukan dalam memasarkan produk. E-commerce sangat tepat digunakan dalam memasarkan produk – produk yang dijual oleh suatu toko [2]. E-commerce dapat memudahkan transaksi antara penjual dan pembeli yang berbeda tempat serta pembeli dapat mengetahui info produk seperti harga, model, warna, dan info produk lainnya dengan mudah [3].
+Perkembangan e-commerce sangat cepat meningkat di Indonesia, hal tersebut mengharuskan semua pelaku usaha untuk dapat beradaptasi dengan menjual produknya secara online. Teknologi yang semakin maju dapat mempermudah proses bisnis suatu usaha [4].
 
-## Settings
 
-This section provides the core settings for your documentation site, such as defining the site's URL, site icon and title.
+##SDLC Waterfall
 
-  ```tsx showLineNumbers
-  export const url = ""; // The URL for your documentation site
-  export const siteicon = ""; // Icon displayed next to the site name in the header
-  export const sitename = ""; // Title of your documentation site
-  ```
+ SDLC (Systems Development Life Cycle) Waterfall adalah proses pengembangan software yang berurutan dimana prosesnya mengalir ke bawah seperti air terjun.
+Tahapan pada SDLC Waterfall harus diselesaikan secara berurutan satu demi satu dan tidak dapat pindah ke tahapan selanjutnya apabila tahapan sebelumnya
+belum selesai sepenuhnya [13].
 
-## Google Tags
 
-This section allows you to integrate Google Tag Manager into your documentation project. You can add your GTM code and configure whether it's connected.
+## Metode Penelitian
+Metode yang digunakan untuk mengumpulkan data adalah metode kualitatif yaitu metode yang mengumpulkan data melalui bahasa tutur, bahasa tubuh, perilaku maupun ungkapan – ungkapan lainnya [14].
+Salah satu cara yang sering digunakan dalam penelitian kualitatif adalah wawancara.
+Wawancara dilakukan untuk mendapatkan informasi dengan memberikan beberapa pertanyaan informal [15].
 
-  ```tsx showLineNumbers
-  export const gtm = ""; // Add your Google Tag Manager code here
-  export const gtmconnected = true; // Set to true if GTM is connected, otherwise set to false
-  ```
+![dawnload](/images/download.png "Waterfall")
 
-## Search Engine
+Metode perancangan aplikasi e-commerce berbasis website ini menggunakan metode SDLC Waterfall.
+Metode perancangan aplikasi e-commerce berbasis android ini menggunakan metode SDLC Waterfall yang dapat dilihat pada Gambar 1. Berikut adalah penjelasan tahapan SDLC Waterfall yang digunakan dalam perancangan aplikasi e-commerce berbasis android pada UD Hoky Celluler Shop:
 
-Configure essential SEO settings to ensure your documentation site is optimized for search engines. This includes meta descriptions, keywords and social media sharing details like images and alt text.
+A. Requirements Analysis
+Tahap pertama adalah melakukan analisis masalah apa saja yang dialami pada UD Hoky Celluler Shop, kemudian menganalisis kebutuhan apa saja yang dibutuhkan aplikasi untuk mengatasi masalah tersebut.
+Untuk mengetahui masalah apa saja yang dialami dan kebutuhan apa saja yang dibutuhkan oleh UD Hoky Celluler Shop maka akan dilakukan wawancara dengan pemilik serta karyawan UD Hoky Celluler Shop
 
-  ```tsx showLineNumbers
-  export const description = ""; // Description of your documentation site for SEO
-  export const keywords = ["", ""]; // List of SEO keywords for your documentation site
-  export const urlimage = ""; // The URL of the image used when sharing on social media)
-  export const imagealt = ""; // Alt text for shared images, helpful for screen readers
-  export const twitterhandle = ""; // Your company’s Twitter handle for social sharing
-  ```
+B. Design
+Tahap selanjutnya adalah melakukan desain tampilan aplikasi yang akan dibuat. Desain dibuat berdasarkan kebutuhan yang sudah dianalisis sebelumnya pada tahap requirement analysis
 
-## Footer Branding
+C. Development
+Pada tahap ini, aplikasi akan dibuat berdasarkan desain yang sudah dirancang sebelumnya pada tahap design.
+Rancangan tersebut digunakan untuk mempermudah pembuatan aplikasi dan juga aplikasi yang dibuat sesuai dengan kebutuhan dan dapat mengatasi masalah yang dimiliki oleh UD Hoky Celluler Shop.
 
-The footer settings allow you to customize the company information displayed at the bottom of the site. You can add the company name and the URL that the name will link to.
+D. Testing
+Pada tahap ini, aplikasi yang sudah dibuat akan diuji terlebih dahulu untuk mengetahui apakah aplikasi berjalan dengan baik dan apakah semua fungsi yang ada pada aplikasi berjalan sesuai dengan fungsinya.
+Tahap ini juga dilakukan untuk mencari apakah ada bug dan error yang terdapat pada aplikasi sehingga pada saat aplikasi diimplementasi bug dan error tersebut dapat dihindari.
 
-  ```tsx showLineNumbers
-  export const companyname = ""; // The company name displayed in the copyright section
-  export const companylink = ""; // The URL your company name should link to
-  ```
+E. Maintenance
+Tahap ini dilakukan setelah aplikasi diimplementasi dimana tahap ini dilakukan untuk menjaga aplikasi agar tetap berjalan
+dengan baik dan juga memperbaiki bug dan error yang tidak ditemukan pada saat tahap testing.
 
-## General Layout
 
-The layout settings control the appearance and functionality of various elements of the documentation site, such as branding, the right sidebar, feedback options, table of contents, and scroll-to-top functionality.
+## Analisis Kebutuhan
 
-  ```tsx showLineNumbers
-  export const branding = true; // Set to true to display our branding elements
-  export const rightsidebar = true; // Set to true to enable the right sidebar with feedback, table of contents and scroll-to-top
-  export const feedbackedit = true; // Control to enable/disable feedback on GitHub
-  export const tableofcontent = true; // Control to enable/disable the generated table of contents
-  export const totopscroll = true; // Control to enable/disable scroll-to-top button
-  ```
+Fitur dan fungsi utama: Daftar fitur utama seperti pencarian produk,system
+pembayaran dengan aman, pelacakan pesanan, ulasan produk , system
+keranjang/troli agar pengguna dapat menambahkan produk, memeriksa subtotal,
+dan melanjutkan ke checkout dengan mudah, juga berbagai metode
+pembayaran(e-wallet, kartu kredit/debit, transfer bank) dan juga fitur promosi
+dan diskon, Pengguna juga dapat menggunakan kupon, dan mengikuti promosi
+khusus.
 
-## Github Control
+### Internal
+- Melakukan input data barang ke dalam aplikasi
+- Melakukan pengubahan dan penghapusan data barang 
+- Memproses pesanan online dari pelanggan 
+- Melihat laporan penjualan 
+- Melihat stok barang 
+- Melakukan input transaksi yang terjadi secara offline ke dalam aplikasi
 
-If your MDX files are hosted on GitHub, you can configure the project to load documents directly from there. This option can be useful for syncing documentation updates directly with your repository.
+### Ekstrernal
+- Melihat list produk yang dijual oleh UD Hoky Celluler Shop
+- Melakukan pemesanan melalui aplikasi
+- Melakukan input data diri
+- Mengubah data diri
 
-  ```tsx showLineNumbers
-  export const loadfromgithub = false; // Set to true to load your MDX documents directly from GitHub
-  ```
+## Business Requirement
 
-## Project Structure
+## Stakeholder Requirement
+
+-	Pemilik Bisnis
+Pemilik bisnis adalah stakeholder utama karena merekalah yang memiliki visi bisnis dan menentukan bagaimana aplikasi e-commerce harus berfungsi untuk mencapai tujuan komersial.
+-	Pengembang (Developer)
+Developer bertanggung jawab untuk mengembangkan dan memelihara aplikasi. Mereka memastikan aplikasi berjalan sesuai kebutuhan bisnis dan teknis.
+-	Desainer UI/UX
+Bertanggung jawab untuk membuat desain antarmuka yang menarik dan pengalaman pengguna yang intuitif sehingga pelanggan nyaman menggunakan aplikasi.
+-	Admin Aplikasi
+Admin mengelola operasional harian di backend seperti menambahkan produk, memperbarui stok, memantau pesanan, dan memberikan dukungan pelanggan.
+-	Pengguna (Customer)
+Pelanggan adalah pengguna akhir yang akan berinteraksi langsung dengan aplikasi untuk mencari, memilih, dan membeli produk.
+-	Tim Pemasaran
+Mereka bertanggung jawab untuk menarik perhatian pelanggan ke aplikasi e-commerce melalui strategi promosi dan kampanye digital.
+-	Penyedia Payment 
+Stakeholder ini menyediakan layanan pembayaran digital yang menghubungkan sistem e-commerce dengan bank atau layanan e-wallet.
+-	Penyedia Jasa Pengiriman
+Mereka bertanggung jawab untuk memastikan barang yang dipesan oleh pelanggan sampai di tangan pelanggan dengan selamat.
+-	Tester 
+Tim tester memastikan kualitas sistem melalui serangkaian uji coba, mengidentifikasi bug, dan memastikan sistem berjalan optimal.
+-	Regulator/keamanan
+Pemerintah atau lembaga terkait memastikan aplikasi mematuhi hukum, termasuk kebijakan privasi, perlindungan data, dan transaksi online.
+
+## System Requirement
+### A. User
+Sistem harus memungkinkan pengguna untuk membuat akun menggunakan email atau media sosial, menyediakan fitur login/logout, pengguna juga dapat mengatur profil(nama,Alamat,kontak), system mendukung peran pengguna seperti admin,penjual, dan pembeli.
+
+### B.Produk
+Penjual dapat menambahkan,mengedit, dan menghapus produk, system bisa menampilkan daftar produk denagan informasi seperti gambar,dekripsi,harga , stok dan Alamat produk.
+
+### C.Shopping cart
+Pengguna dapat menambahkan produk ke-keranjang, system juga dapat memperbarui total harga saat item ditambahkan atau dihapus dan pengguna dapat melakukan checkout pada produk keranjang belanja. 
+
+## Software Requirement
+
+## Tujuan
+Membantu masyarakat untuk membantu menjual produk dengan cara online. 
+
+
+-Sistem harus memvalidasi detaila kartu kredit sebelum memproses tansaksi.
+-Sistem harus memberikan detail terhadap produk yang di pesan oleh costumer.
+-Sistem harus mengirimkan email dan no hp konfirmasi setelah pembelian selesai.
+
+
+## Diagram Flowchat
+
+![Flowchat](/images/Flowchat.png "Flowchat")
+
+
+
+
+
+
+
+
+
+
+## Diagram UML
+
+
+
+ 
+
+
+
+
+
 <CardGrid>
   <Card
-    title="Navigation"
-    href="/docs/navigation"
-    icon="alignJustify"
-    variant="small"
-    description="Creating your navigation"
+    subtitle="Instructions"
+    title="Installation"
+    description="Get started with Documents using our quick start installation guide to get your project started."
+    href="/docs/introduction/installation"
+  />
+  <Card
+    subtitle="Setup"
+    title="Site Settings"
+    description="Setting up your Documents projects layout, links and search engine optimisation."
+    href="/docs/introduction/setup"
+  />
+  <Card
+    subtitle="Support"
+    title="Rubix Studios"
+    description="Australia's leading branding, marketing and web development company."
+    href="https://www.rubixstudios.com.au/"
+    external={true}
   />
 </CardGrid>
+
+## Why Documents?
+
+Documents was created as an open-source project to help the community streamline their documentation process, enabling developers to focus on more critical 
+tasks. Built with scalability in mind, it adapts to projects of all sizes, from single-page guides to comprehensive knowledge bases. 
+
+The integration of MDX, custom components and Tailwind CSS ensures an intuitive experience, simplifying both content creation and management. 
+
+  - **Product Guides**: Comprehensive manuals for product usage, setup and troubleshooting.
+  - **Business Documentation**: Clear and structured documentation for internal processes, policies and systems.
+  - **Technical Manuals**: Detailed guides for APIs, software development kits (SDKs) and technical processes.
+
+Documents offers extensive customization options, allowing you to easily align the design and functionality with your branding.
+
+## Key Features
+
+Here are some of the features that make **Documents** ideal for building your documentation:
+
+| Feature                              | Description                                                                                                      |
+|--------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| **Content Creation**                 | Write documentation using Markdown with JSX, custom components and Mermaid.js for diagrams.                      |
+| **Navigation & Structure**           | Organize content with multi-level navigation, automatically generated tables of contents and smooth pagination.  |
+| **Code Features**                    | Syntax highlighting, enhanced code blocks and a code switcher with copy functionality.                           |
+| **Advanced Search**                  | Fuzzy search with term highlighting for quick and accurate results.                                              |
+| **Theming & Layout**                 | Supports light/dark modes with automatic switching and responsive design.                                        |
+| **Math & Tables**                    | Seamless integration of LaTeX for math and structured tables.                                                    |
+| **SEO & Meta Tags**                  | Built-in SEO, metadata generation and control over meta tags for better search rankings and social sharing.      |
+| **AI-powered Docs (In Development)** | Future feature for AI-driven content discussions and search.                                                     |
+
+## How to Use These Documents
+
+You'll find the documentation's navigation bar on the left side of the screen. The pages are organized in a logical sequence, progressing from foundational 
+topics to more advanced concepts, allowing you to follow along step-by-step as you build your documentation. However, feel free to explore the content in 
+any order, selecting the sections most relevant to your use case.
+
+On the right side of the screen, a table of contents provides easy navigation between sections of each page. For quick access to specific content, you can 
+use the search bar at the top or the search shortcut (`Ctrl+K` or `Cmd+K`).
+
+Head over to the [Installation Guide](/docs/introduction/installation).
+
+## Join our Community
+
+If you have questions about anything related to Documents, you're always welcome to ask our community on [GitHub](https://github.com/rubixvi/rubix-documents), [X (Twitter)](https://x.com/rubixstory), [Facebook](https://www.facebook.com/rubixstudios) 
+and [Reddit](https://www.reddit.com/r/RubixStudios/).
