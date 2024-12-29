@@ -1,9 +1,62 @@
 ## Software Requirement
 
-## Tujuan
-Membantu masyarakat untuk membantu menjual produk dengan cara online. 
+### 1. Functional Requirements (Kebutuhan Fungsional)
+### - User
+Sistem harus memungkinkan pengguna untuk membuat akun menggunakan email atau media sosial, menyediakan fitur login/logout, pengguna juga dapat mengatur profil(nama,Alamat,kontak), system mendukung peran pengguna seperti admin,penjual, dan pembeli.
+
+### - Produk
+Penjual dapat menambahkan,mengedit, dan menghapus produk, system bisa menampilkan daftar produk denagan informasi seperti gambar,dekripsi,harga , stok dan Alamat produk.
+
+### - Search & Filter
+pengguna dapat mencari produk berdasarkan kata kunci atau memfilter produk berdasarkan kategori, harga, rating, dan sistem akan memberikan
+fitur sorting misalnya: harga terendah dan terbaru.
+
+### - Cart & Checkout
+Pengguna dapat menambahkan produk ke-keranjang, system juga dapat memperbarui total harga saat item ditambahkan atau dihapus dan pengguna dapat melakukan checkout pada produk di keranjang belanja,
+Sistem mendukung proses checkout dengan berbagai metode pembayaran transfer bank, e-wallet, kartu kredit dan dapat menginput alamat pengiriman.
 
 
--Sistem harus memvalidasi detaila kartu kredit sebelum memproses tansaksi.
--Sistem harus memberikan detail terhadap produk yang di pesan oleh costumer.
--Sistem harus mengirimkan email dan no hp konfirmasi setelah pembelian selesai.
+### - Order 
+Sistem dapat melihat daftar pesanan mereka dan mencatat status pesanan seperti menunggu pembayaran, proses, kirim, selesai, atau dibatalkan
+dan admin dapat mengelola pesanan dengan memvalidasi pembayaran dan mengatur pengiriman.
+
+### - Review & Rating
+sistem harus mendukung pengguna dapat memberikan ulasan dan rating pada produk yang telah dibeli.
+sistem menampilkan rata-rata rating dan ulasan pada halaman produk.
+
+### - Notifications
+Sistem mengirimkan notifikasi kepada pengguna (melalui email, aplikasi, atau push notifications) untuk status pesanan, promosi, atau pengingat.
+
+### - Reporting (Admin)
+Admin dapat melihat laporan penjualan, pengguna aktif, dan transaksi.
+Admin dapat mengelola promosi (diskon, voucher).
+
+### 2. Non-Functional Requirements (Kebutuhan Non-Fungsional)
+
+### - Performance
+Sistem harus dapat menangani hingga 10.000 pengguna aktif secara bersamaan dan 
+Waktu respon untuk memuat halaman tidak boleh lebih dari 3 detik.
+
+### - Scalability
+Sistem harus dapat dengan mudah ditingkatkan untuk mendukung pertumbuhan pengguna.
+
+### - Security
+Sistem harus memiliki mekanisme otentikasi dua faktor (2FA) dan
+Transaksi pembayaran harus mematuhi standar keamanan PCI DSS.
+
+### - Availability
+Sistem harus tersedia minimal 99.9% uptime.
+Harus ada mekanisme backup otomatis untuk data aplikasi.
+
+### - Usability
+Aplikasi harus mudah digunakan dengan antarmuka yang intuitif dan 
+Sistem harus mendukung berbagai perangkat (desktop, tablet, dan smartphone).
+
+### - Maintainability
+Kode harus ditulis dengan standar yang baik agar mudah diperbaiki atau diperbarui.
+Harus ada dokumentasi teknis dan panduan pengguna.
+
+- Sistem harus memvalidasi detaila kartu kredit sebelum memproses tansaksi.
+- Sistem harus memberikan detail terhadap produk yang di pesan oleh costumer.
+- Sistem harus mengirimkan email dan no hp konfirmasi setelah pembelian selesai.
+- sistem harus kompatible dengan windows , macOS, dan linux.

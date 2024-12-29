@@ -1,10 +1,74 @@
 ## System Requirement
-### A. User
-Sistem harus memungkinkan pengguna untuk membuat akun menggunakan email atau media sosial, menyediakan fitur login/logout, pengguna juga dapat mengatur profil(nama,Alamat,kontak), system mendukung peran pengguna seperti admin,penjual, dan pembeli.
 
-### B.Produk
-Penjual dapat menambahkan,mengedit, dan menghapus produk, system bisa menampilkan daftar produk denagan informasi seperti gambar,dekripsi,harga , stok dan Alamat produk.
+## 1.Sistem Operasi
+Aplikasi dapat berjalan di berbagai sistem operasi untuk mendukung fleksibilitas pengembangan dan implementasi:
 
-### C.Shopping cart
-Pengguna dapat menambahkan produk ke-keranjang, system juga dapat memperbarui total harga saat item ditambahkan atau dihapus dan pengguna dapat melakukan checkout pada produk keranjang belanja. 
+### Windows
+Disarankan menggunakan Windows 10 Pro atau lebih baru untuk mendukung pengembangan lokal dan kompatibilitas dengan berbagai tools seperti Visual Studio.
+Mendukung ekosistem berbasis Microsoft seperti IIS (Internet Information Services) untuk hosting aplikasi.
+
+### macOS
+Versi Catalina atau lebih baru disarankan untuk pengembang yang menggunakan perangkat Apple, karena kompatibel dengan Xcode (jika diperlukan untuk pengembangan aplikasi berbasis iOS).
+
+### Linux
+Distribusi seperti Ubuntu 20.04 LTS direkomendasikan karena stabilitas, dukungan jangka panjang, dan kompatibilitas dengan berbagai server stack seperti Apache, Nginx, dan Docker.
+Cocok untuk server produksi karena performa tinggi dan biaya rendah.
+
+## 2.Basis Data
+Pilihan basis data harus sesuai dengan skala aplikasi dan kebutuhan pengelolaan data:
+
+### MySQL
+Cocok untuk aplikasi dengan struktur data terorganisir. Mendukung transaksi dan relasi kompleks antara tabel.
+Contoh: Data pengguna, produk, kategori, pesanan, dan pembayaran.
+
+### MongoDB:
+Basis data NoSQL untuk menyimpan data yang tidak selalu memiliki struktur tetap, seperti log aktivitas pengguna atau metadata produk.
+Contoh: Digunakan dalam modul pencarian produk dengan filter fleksibel.
+
+## 3.Framework
+Framework yang digunakan membantu mempercepat pengembangan dengan menyediakan struktur bawaan:
+
+### php
+Framework PHP berbasis MVC (Model-View-Controller) yang kaya fitur seperti autentikasi, manajemen API, dan pengelolaan basis data.
+Contoh: Cocok untuk membangun backend aplikasi e-commerce yang handal.
+
+### JavaScript
+Library JavaScript untuk membangun antarmuka pengguna (frontend) yang interaktif dan dinamis.
+Contoh: Membuat halaman produk yang responsif dengan fitur pencarian instan.
+
+
+## Kebutuhan Perangkat Keras (Hardware Requirements)
+## 1.Minimum RAM
+
+### 8GB
+Dibutuhkan untuk pengoperasian server atau pengembangan lokal yang menjalankan basis data, server aplikasi, dan server web secara bersamaan.
+Contoh: Server yang menangani hingga 500 permintaan pengguna per detik.
+
+### 16GB atau lebih
+Disarankan untuk lingkungan pengembangan atau server dengan banyak proses, seperti virtualisasi atau containerization (Docker/Kubernetes).
+
+## 2.Penyimpanan
+
+### 500GB HDD (minimum)
+Cukup untuk menyimpan file aplikasi, log sistem, dan basis data dengan ukuran sedang (hingga 100.000 entri produk).
+
+### 500GB SSD (disarankan)
+Meningkatkan performa aplikasi, terutama untuk kecepatan membaca/menulis data. Cocok untuk server produksi dengan banyak pengguna aktif.
+
+## 3.Server Mendukung Virtualisasi
+Server harus mampu menjalankan mesin virtual untuk isolasi lingkungan pengembangan dan pengujian:
+
+- VMWare: Platform virtualisasi komersial yang kuat untuk server fisik.
+- Hyper-V: Teknologi virtualisasi bawaan Windows Server untuk kebutuhan skala besar.
+- KVM (Kernel-based Virtual Machine): Alternatif open-source untuk Linux, memberikan fleksibilitas dan efisiensi biaya.
+
+## 4.Prosesor
+- Minimal Intel Core i5 generasi ke-8 atau setara (2.4 GHz, quad-core).
+- Direkomendasikan Intel Xeon atau AMD EPYC untuk server produksi dengan load tinggi.
+
+## 5.Jaringan
+
+- Kecepatan Jaringan: Minimal 1 Gbps untuk server lokal.
+- Bandwidth: Harus mampu menangani setidaknya 500 pengguna aktif dengan data transfer rata-rata 100 KB per permintaan.
+
 
