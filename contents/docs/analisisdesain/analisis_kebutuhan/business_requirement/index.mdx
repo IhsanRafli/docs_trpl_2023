@@ -1,102 +1,85 @@
 ## Business Requirement
 
-### A.Fitur Utama
-- Manajemen Produk
+## 1. Deskripsi Umum
+Perusahaan ingin membangun platform e-commerce untuk mendukung UMKM dalam memperluas jangkauan pasar dan meningkatkan efisiensi proses penjualan. Platform ini harus dapat digunakan oleh penjual dan pembeli secara mudah, cepat, dan aman.
 
-  pada manjemen produk para penjual dapat menambahkan produk, mengedit data produk, dan menghapus produk sesuai dengan 
-  kategori dan setiap sub-kategori pada produk.
+## 2. Tujuan Bisnis
+Tujuan bisnis menjelaskan hasil akhir yang ingin dicapai oleh organisasi:
 
-- Keranjang Belanja
+### 1.Meningkatkan Penjualan UMKM:
 
-  pada keranjang belanja pembli dapat menambahkan dan menghapus produk dari keranjang, pada fitur ini ada 
-  rincian perhitungan subtotal dari jumlah produk dan juga ongkos kirim.
+- Memungkinkan UMKM menjual produk secara online untuk meningkatkan penjualan hingga 30% dalam 6 bulan pertama setelah implementasi.
+- Memberikan akses ke pasar yang lebih luas, termasuk pembeli di luar wilayah lokal.
 
-- Sistem Pembayaran
+### 2.Efisiensi Proses Penjualan:
+Mengurangi waktu yang dihabiskan UMKM dalam memproses pesanan dengan fitur otomatisasi, seperti:
 
-  tahap sistem pembayaran akan di integrasikan dengan metode pembayaran sperti kartu kredit, e-wallet, transfer bank, dan juga ada sistem cod.
-  setelah selesai pembayaran akan ada muncul konfirmasi dan notifikasi pembayaran secara otomatis.  
+- Manajemen inventaris.
+- Integrasi logistik untuk melacak pengiriman.
+- Penghitungan pajak dan ongkos kirim secara otomatis.
 
-- Akun Pengguna
+### 3.Meningkatkan Kepuasan Pelanggan
 
-  sebelum pengguna beraktivitas pada aplikasi atau website, pengguna diharuskan registrasi dan login untuk penjual dan pembeli agar
-  dapat mengakses semua fasilitas yang tersedia seperti profil untuk mengelola data pribadi.  
+- Memberikan pengalaman belanja yang mudah dan responsif.
+- Menyediakan metode pembayaran yang aman dan beragam (e-wallet, transfer bank, kartu kredit).
 
-- Manajemen Pesanan
+### 4.Monetisasi Platform:
 
- fitur ini pembeli dapat melihat riwayat pesanan dan pada penjual dapat melihat dan memproses pesanan, dan dilengkapin dengan sistem ulasan dan rating.
+- Meningkatkan pendapatan perusahaan melalui komisi transaksi (3% per transaksi) dan iklan promosi berbayar bagi penjual yang ingin meningkatkan visibilitas produk.
 
-- Pencarian dan Filter
+## 3. Kebutuhan Bisnis Utama
+Menjabarkan apa yang diperlukan untuk mencapai tujuan bisnis:
 
-  pada fitur pencarian produk akan bekerja sesuai nama, kategori, harga dan rating.
+### 1.Fitur Utama Platform:
 
-- Dashboard Admin
+- Sistem pencarian produk yang responsif dan mendukung pencarian berbasis kategori, harga, dan ulasan.
+- Dashboard untuk UMKM yang memungkinkan mereka melihat laporan penjualan, analitik pelanggan, dan status inventaris.
+- Sistem pembayaran terintegrasi dengan payment gateway lokal (Midtrans, Xendit) dan internasional (PayPal, Stripe).
 
-  pada halaman ini hanya bisa di akses oleh admin itu sendiri, admin juga dapat melakukan pengelolaan data penggunan, produk,Statistik penjualan, melihat aktivitas pengguna dan pesanan.
+### 2.Integrasi Logistik:
 
-#### Pemangku Kepentingan
+- Mengintegrasikan sistem dengan penyedia logistik seperti JNE, J&T, dan SiCepat untuk otomatisasi label pengiriman dan pelacakan real-time.
 
-- Pemilik Bisnis
+### 3.Keamanan Sistem:
 
-  Memantau dan memastikan platform berjalan sesuai tujuan.
-- Penjual
+- Memastikan data penjual dan pembeli aman dengan penerapan protokol keamanan seperti SSL/TLS, enkripsi data, dan autentikasi dua faktor (2FA).
 
-  Menjual produk mereka kepada pelanggan.
-- Pembeli
+### 4.Fleksibilitas Platform:
 
-  Membeli produk yang tersedia di platform.
-- Tim Teknologi
+- Mendukung ekspansi untuk menjangkau pasar internasional dengan kemampuan multi-bahasa dan multi-mata uang.
 
-  Membuat, mengelola, dan memperbarui sistem website.
-- Tim Dukungan Pelanggan
+## 4. Manfaat Bisnis (Business Value)
+Menjelaskan nilai yang akan diperoleh perusahaan setelah implementasi sistem:
 
-  Membantu pengguna jika terjadi masalah atau kendala.
+### 1.Manfaat untuk Perusahaan:
 
+- Memperoleh pendapatan tambahan dari transaksi dan iklan promosi.
+- Menjadi platform e-commerce terkemuka di segmen UMKM dengan reputasi sebagai penyedia solusi bisnis digital.
 
-#### Persyaratan Fungsional
+### 2.Manfaat untuk UMKM:
 
-- Halaman Utama
+- Memberikan akses teknologi yang terjangkau untuk mendigitalisasi bisnis mereka.
+- Meningkatkan efisiensi operasional melalui otomatisasi dan data-driven decision-making.
 
-  pada halaman utama pada platfrom ini hanya menampilakan produk populer, produk yang sedang promo, dan juga produk rekomendasi.
+### 3.Manfaat untuk Pembeli:
 
-- Proses Checkout
+- Memberikan pengalaman belanja yang lebih nyaman dengan sistem yang mudah digunakan dan aman.
+- Memperoleh akses ke produk lokal berkualitas yang sebelumnya sulit dijangkau.
 
-  pada fitur ini pengguna akan diminta mengisi alamat pengirirman, data diri dan konfirmasi pesanan sebelum pembayaran.
+## 5. Indikator Keberhasilan (Key Performance Indicators - KPI)
+Mengukur sejauh mana sistem mendukung pencapaian tujuan bisnis:
 
-- Notifikasi
+- Pengguna Baru: Mendapatkan 10.000 UMKM terdaftar dalam 6 bulan pertama peluncuran.
+- Transaksi Harian: Memproses minimal 500 transaksi per hari setelah 3 bulan peluncuran.
+- Pendapatan: Mendapatkan pendapatan bersih Rp500 juta dari komisi transaksi dan iklan dalam tahun pertama.
+- Kepuasan Pelanggan: Mencapai rating kepuasan pelanggan 4.5/5 melalui survei berkala.
 
-  setelah peroses pembelian akan mendapatkan notifikasi email/sms pemberitahuan untuk pesanan, pembayaran, dan pengiriman.
+## 6. Batasan (Constraints)
+Mengidentifikasi kendala atau batasan yang memengaruhi pencapaian kebutuhan bisnis:
 
-- Keamanan
-
-  Otentikasi pengguna dengan kata sandi aman dan melakukan enkripsi data pembayaran.
-
-#### Persyaratan Non-Fungsional
-
-- Kecepatan
-
-  Website harus dapat memuat dalam waktu kurang dari 3 detik.
-- Skalabilitas
-
-  Sistem dapat menangani hingga 10.000 pengguna aktif secara bersamaan.
-- Keamanan
-
-  Perlindungan terhadap serangan seperti SQL injection dan XSS.
-
-#### Waktu
-
-Estimasi Waktu: 1 bulan.
-Anggaran: Rp 100.000.000 (tergantung fitur tambahan).
-
-
-
-
-
-
-
-
-
-
-
+- Anggaran: Biaya pengembangan sistem dibatasi hingga Rp2 miliar.
+- Waktu Pengembangan: Sistem harus selesai dalam 6 bulan untuk memenuhi jadwal peluncuran.
+- Sumber Daya: Terbatasnya tim pengembang internal, sehingga memerlukan vendor pihak ketiga.
 
 
 
