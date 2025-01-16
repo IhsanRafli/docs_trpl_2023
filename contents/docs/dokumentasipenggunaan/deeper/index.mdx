@@ -1,78 +1,39 @@
----
-title: Setup
-description: Setting up and configuring your documentation project
-keywords: ["setup", "configuration", "layout", "Google", "SEO", "nextjs", "documents"]
----
+## Panduan Pengguna Website
 
-Setting up your new documentation project is straightforward. Most of the essential project settings can be configured within the `settings` folder.
+## Dashboard
+![Screenshot](/images/Screenshot11.png "Screenshot")
+![Screenshot](/images/Screenshot12.png "Screenshot")
 
-## Settings
+## Card
+![Screenshot](/images/Screenshot13.png "Screenshot")
+![Screenshot](/images/Screenshot14.png "Screenshot")
 
-This section provides the core settings for your documentation site, such as defining the site's URL, site icon and title.
+## Cart
+![Screenshot](/images/Screenshot15.png "Screenshot")
 
-  ```tsx showLineNumbers
-  export const url = ""; // The URL for your documentation site
-  export const siteicon = ""; // Icon displayed next to the site name in the header
-  export const sitename = ""; // Title of your documentation site
-  ```
+## Admin
+![Screenshot](/images/Screenshot16.png "Screenshot")
 
-## Google Tags
 
-This section allows you to integrate Google Tag Manager into your documentation project. You can add your GTM code and configure whether it's connected.
+## Panduan Penggunaan Website E-Commerce
 
-  ```tsx showLineNumbers
-  export const gtm = ""; // Add your Google Tag Manager code here
-  export const gtmconnected = true; // Set to true if GTM is connected, otherwise set to false
-  ```
+Selamat datang di [Nama Website]! Kami hadir untuk memudahkan Anda berbelanja online dengan nyaman dan aman. Berikut adalah panduan langkah demi langkah untuk membantu Anda menggunakan website kami.
 
-## Search Engine
+### Pendaftaran Akun
+Masukkan nama Lengkap anda, alamat email dan kata sandi, lalu sistem akan mengarahkan anda ke halaman login, jika anda berhasil login maka akan di arahkan masuk ke halaman dashboard kita.
 
-Configure essential SEO settings to ensure your documentation site is optimized for search engines. This includes meta descriptions, keywords and social media sharing details like images and alt text.
+### Masuk ke Akun
+Sistem kami akan minta anda untuk login dengan memasukkan nama lengkap anda lalu juga isi bagian password lalu sistem akan melakukan pengecekan jika berhasil maka akan di arahlan ke ha;aman dashboard, jika password kamu invalid maka akan kembali ke halamn login.
 
-  ```tsx showLineNumbers
-  export const description = ""; // Description of your documentation site for SEO
-  export const keywords = ["", ""]; // List of SEO keywords for your documentation site
-  export const urlimage = ""; // The URL of the image used when sharing on social media)
-  export const imagealt = ""; // Alt text for shared images, helpful for screen readers
-  export const twitterhandle = ""; // Your company’s Twitter handle for social sharing
-  ```
+### Mencari Produk
+Gunakan kolom pencarian di bagian atas halaman untuk mencari produk dengan berdasarkan nama produk ingin anda cari maka sistem akan merekomendasikan peroduk yang bagus.
 
-## Footer Branding
+### Menambahkan Produk ke Keranjang
+Klik produk yang Anda inginkan untuk melihat detailnya lalu klik tombol tambah keranjang dan pilih jumlah produk yang inginanda beli.
 
-The footer settings allow you to customize the company information displayed at the bottom of the site. You can add the company name and the URL that the name will link to.
+### Melihat dan Mengelola Keranjang Belanja
+Klik ikon Keranjang di pojok kanan atas, priksa produk yang telah ditambahkan ubah jumlah atau hapus jika diperlukan.
 
-  ```tsx showLineNumbers
-  export const companyname = ""; // The company name displayed in the copyright section
-  export const companylink = ""; // The URL your company name should link to
-  ```
-
-## General Layout
-
-The layout settings control the appearance and functionality of various elements of the documentation site, such as branding, the right sidebar, feedback options, table of contents, and scroll-to-top functionality.
-
-  ```tsx showLineNumbers
-  export const branding = true; // Set to true to display our branding elements
-  export const rightsidebar = true; // Set to true to enable the right sidebar with feedback, table of contents and scroll-to-top
-  export const feedbackedit = true; // Control to enable/disable feedback on GitHub
-  export const tableofcontent = true; // Control to enable/disable the generated table of contents
-  export const totopscroll = true; // Control to enable/disable scroll-to-top button
-  ```
-
-## Github Control
-
-If your MDX files are hosted on GitHub, you can configure the project to load documents directly from there. This option can be useful for syncing documentation updates directly with your repository.
-
-  ```tsx showLineNumbers
-  export const loadfromgithub = false; // Set to true to load your MDX documents directly from GitHub
-  ```
-
-## Project Structure
-<CardGrid>
-  <Card
-    title="Navigation"
-    href="/docs/navigation"
-    icon="alignJustify"
-    variant="small"
-    description="Creating your navigation"
-  />
-</CardGrid>
+#### Melakukan Pembayaran
+Klik tombol "Checkout" di halaman keranjang, dengan anda mengisi informasi pengiriman seperti nama penerima, alamat pengiriman dan pilih metode pembayaran yang memudahkan anda untuk berbayar
+klik tombol "pembayaran" untuk menyelesaikan transaksi dan anda akan mendapatkan detail pesanan anda.
