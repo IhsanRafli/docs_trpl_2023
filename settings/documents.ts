@@ -168,7 +168,7 @@ export const Documents: Paths[] = [
         items: [
           {
             title: "Analisis Kebutuhan",
-            href: "/kebutuhanr",
+            href: "/kebutuhan",
           },
           {
             title: "Pembuatan Diagram UML",
@@ -180,7 +180,7 @@ export const Documents: Paths[] = [
           },
           {
             title: "Pengujian Fungsionalitas",
-            href: "/pengujian",
+            href: "/penguji",
           },
           {
             title: "Deployment ke Vercel",
