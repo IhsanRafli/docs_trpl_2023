@@ -114,7 +114,7 @@ export const Documents: Paths[] = [
           },
           {
             title: "Prototipe",
-            href: "/prototipe",
+            href: "/prototaipe",
           },
         ],
       },
