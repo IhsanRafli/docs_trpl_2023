@@ -158,7 +158,7 @@ export const Documents: Paths[] = [
         items: [
           {
             title: "MYSQL",
-            href: "/even-deeper",
+            href: "/mysql",
           },
         ],
       },
