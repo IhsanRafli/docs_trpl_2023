@@ -7,10 +7,11 @@ export default function Home() {
   return (
     <div className="min-h-[86.5vh] flex flex-col justify-center items-center text-center px-2 py-8">
       <h1 className="text-4xl font-bold mb-4 sm:text-7xl">
-        Documents E-
+        SMARTSHOPS
       </h1>
       <p className="max-w-[600px] text-foreground mb-8 sm:text-base">
-        A simple open-source product documentation platform. That&apos;s simple to use and easy to customize.
+      SmartShops adalah platform e-commerce modern yang dirancang untuk memberikan pengalaman belanja online yang cerdas dan nyaman. Dengan antarmuka yang intuitif dan fitur-fitur canggih, SmartShops memudahkan pengguna menemukan produk favorit mereka dengan cepat dan efisien.
+      
       </p>
       <div className="flex items-center gap-5">
         <Link
