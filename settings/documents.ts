@@ -40,10 +40,6 @@ export const Documents: Paths[] = [
         title: "Teknologi yang Digunakan",
         href: "/teknologiyangdigunakan",
       },
-      {
-        title: "Keterkaitan Mata Kuliah",
-        href: "/keterkaitanmatkul",
-      },
     ],
   },
   {
